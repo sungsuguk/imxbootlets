@@ -667,7 +667,7 @@ int _start(int arg)
 {
 	unsigned int value;
 	volatile int *pTest = 0x40000000;
-	unsigned int CE = 0x1;
+	unsigned int CE = 0x3;
 	int i;
 
 	printf(__DATE__ __TIME__);
